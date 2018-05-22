@@ -1,0 +1,43 @@
+[debug] [2018-05-22T16:05:29.640Z] ----------------------------------------------------------------------
+[debug] [2018-05-22T16:05:29.642Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Felipe\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions,hosting
+[debug] [2018-05-22T16:05:29.642Z] CLI Version:   3.18.4
+[debug] [2018-05-22T16:05:29.642Z] Platform:      win32
+[debug] [2018-05-22T16:05:29.642Z] Node Version:  v8.10.0
+[debug] [2018-05-22T16:05:29.643Z] Time:          Tue May 22 2018 13:05:29 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-05-22T16:05:29.643Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-22T16:05:29.654Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-22T16:05:29.655Z] > authorizing via signed-in user
+[debug] [2018-05-22T16:05:29.658Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/teste-sinergia-8cb5b  
+  
+ Tue May 22 2018 13:05:29 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-05-22T16:05:30.706Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-22T16:05:30.707Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/teste-sinergia-8cb5b/tokens  
+  
+ Tue May 22 2018 13:05:30 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-05-22T16:05:31.420Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-22T16:05:31.423Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/teste-sinergia-8cb5b  
+  
+ Tue May 22 2018 13:05:31 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-05-22T16:05:32.714Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Felipe\dev\geraSinergia\sinergiaNode'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-05-22T16:05:40.289Z] Fetching environment
+[debug] [2018-05-22T16:05:40.292Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/266245283454:getServerAppConfig  
+  
+ Tue May 22 2018 13:05:40 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-05-22T16:05:40.292Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/266245283454/clients/_:getWebAppConfig  
+  
+ Tue May 22 2018 13:05:40 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-05-22T16:05:41.001Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-22T16:05:41.258Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-22T16:05:41.259Z] Starting @google-cloud/functions-emulator
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-05-22T16:05:46.537Z] Parsing function triggers
+[info] +  functions: app: http://localhost:5001/teste-sinergia-8cb5b/us-central1/app
+[info] [hosting] Rewriting /timestamp to local function app
+[info] [hosting] Rewriting /timestamp to local function app
